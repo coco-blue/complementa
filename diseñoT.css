@@ -1,0 +1,127 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.8;
+  color: #000;
+  background-color:#ffffff;   
+
+}
+.menu {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: center; 
+  padding: 30px;
+   transition: transform 0.4s;
+}
+.menu a{
+  display: inline-block;
+  width: 220px;
+  padding: 12px 20px;
+  margin: 6px;
+  background: #541ae8;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+ 
+}
+.menu a:hover,
+.contenido a:hover{
+  background: #3b0fb5;
+  transform: translateY(-2px);
+}
+.contenido a{
+  display: inline-block;
+  padding: 8px 20px;
+  background: #541ae8;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
+.contenido h1{
+  text-align: center;
+  color: #38afb7;
+  font-size: 3rem;
+  margin: 20px 0;
+}
+.contenido h3{
+  text-align: center;
+  color: #541ae8;
+  padding-bottom: 4px;
+  margin-top: 35px;
+}
+.contenido h4{
+  text-align: center;
+  color:  #38afb7;
+}
+.contenido dt{
+  font-weight: bold;
+  color: #541ae8;
+}
+.contenido img{
+  max-width: 100%;
+  margin: 10px 0;
+}
+.centro {
+  text-align: center;
+}
+.contenido video{
+  display: block;
+  margin: 15px 0;
+  border-radius: 10px;
+}
+.contenido table{
+  border-collapse: collapse;
+  margin: 20px auto;
+  text-align: center;
+}
+.contenido th{
+  background: #541ae8;
+  color: white;
+  border: 1px solid #101115;
+}
+.contenido td{
+  border: 1px solid #101115;
+  background-color: rgb(255, 255, 255);
+  color:rgb(170, 45, 114);
+}
+.contenido fieldset{
+  border: 2px solid #541ae8;
+  border-radius: 10px;
+  padding: 15px 20px;
+  text-align: center;
+}
+.contenido legend{
+  color: #541ae8;
+  font-weight: bold;
+  padding: 0 10px;
+}
+.contenido input[type="text"],
+.contenido input[type="number"]{
+  padding: 6px 10px;
+  margin-bottom: 10px;
+  border: 1px solid  #2f848a;
+  border-radius: 6px;
+}
+.contenido input[type="reset"]{
+  padding: 8px 20px;
+  margin-top: 10px;
+  background: #541ae8;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+.tarjeta{
+     background-color: #C0EFFF;
+    padding: 25px;
+    width: 1000px;         
+    margin: 0 auto 18px;      
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    margin: 80px auto 18px; 
+}
+.tarjeta h1{
+    color: #000;
+    margin-bottom: 10px;
+}
+.contenido .img-centrada {
+  display: block;
+  margin: 10px auto;
+}
